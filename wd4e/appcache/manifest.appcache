@@ -1,11 +1,11 @@
 CACHE MANIFEST
-#ver:18.07.2016, 12:57:39
+#ver:18.07.2016, 15:34:57
 
 CACHE:
 ../favicon.ico
 ../manifest.json
-../main.c794642f8db5978558a2.js
-../vendor.683a566efa9a17eb0870.js
+../main.d878a06cf22dd2deedf8.js
+../vendor.13a74baee4551a731edf.js
 ../main.b8a3b303ce4d9b8eae5c5939be3c80b4.css
 ../
 ../1.9fbadad40723136cb837.chunk.js
