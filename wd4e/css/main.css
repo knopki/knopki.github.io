@@ -2,10 +2,8 @@
 @import 'https://fonts.googleapis.com/css?family=Monoton';
 @import 'https://fonts.googleapis.com/css?family=Mr+Dafoe';
 @import 'https://fonts.googleapis.com/css?family=Changa+One';
-
 @import 'matrix.css';
 @import 'm-logo.css';
-
 html,
 body {
   height: 100%;
@@ -16,21 +14,25 @@ body {
 }
 
 body.modal-open {
-    padding-right: inherit !important;
+  padding-right: inherit !important;
 }
-
 
 
 /* MODIFIERS */
 
-/*.transback {
-  background-color: transparent;
-}*/
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
 
 
 /* CONTENT */
 
-.content-box > .container-fluid {
+.content-box>.container-fluid {
   background: white;
 }
 
@@ -125,9 +127,10 @@ body.modal-open {
   overflow: hidden;
 }
 
-#footer > .container-fluid{
+#footer>.container-fluid {
   min-height: 20vh;
 }
+
 
 /* RESPONSIVISM */
 
