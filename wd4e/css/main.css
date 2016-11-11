@@ -1,0 +1,168 @@
+@import 'https://fonts.googleapis.com/css?family=Press+Start+2P&subset=latin,cyrillic';
+@import 'https://fonts.googleapis.com/css?family=Monoton';
+@import 'https://fonts.googleapis.com/css?family=Mr+Dafoe';
+@import 'https://fonts.googleapis.com/css?family=Changa+One';
+
+@import 'matrix.css';
+@import 'm-logo.css';
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  position: relative;
+}
+
+body.modal-open {
+    padding-right: inherit !important;
+}
+
+
+
+/* MODIFIERS */
+
+/*.transback {
+  background-color: transparent;
+}*/
+
+
+/* CONTENT */
+
+.content-box > .container-fluid {
+  background: white;
+}
+
+.content-box-deco {
+  background: transparent;
+  display: flex;
+  position: relative;
+  width: 100%;
+  z-index: -1;
+}
+
+.content-box-header {
+  bottom: -13vh;
+}
+
+.content-box-bgheader {
+  top: -15vh;
+}
+
+.content-box-bgfooter {
+  bottom: -10vh;
+}
+
+.content-box-skew-left {
+  width: 50%;
+  height: 20vh;
+  transform: skewY(7deg);
+  background: white;
+}
+
+.content-box-skew-right {
+  width: 50%;
+  height: 20vh;
+  transform: skewY(-7deg);
+  background: white;
+}
+
+.bgimg {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover !important;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  z-index: -100;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bgimg-1 {
+  background-image: url("../images/grid-car2.jpg");
+  height: 50vh;
+}
+
+.bgimg-2 {
+  background-image: url("../images/two-cars.jpg");
+  height: 50vh;
+}
+
+.bgimg-3 {
+  background-image: url("../images/sun.jpg");
+  height: 50vh;
+}
+
+.bgimg-4 {
+  background-image: url("../images/error-hacking.png");
+  height: 50vh;
+  filter: contrast(200%);
+}
+
+.bgimg-5 {
+  background-image: url("../images/grid1.jpg");
+  height: 50vh;
+  /*filter: contrast(200%);*/
+}
+
+#top {
+  height: 65vh;
+}
+
+#projects .card {
+  min-height: 350px;
+}
+
+#useless-carousel .carousel-item {
+  overflow: hidden;
+}
+
+#footer > .container-fluid{
+  min-height: 20vh;
+}
+
+/* RESPONSIVISM */
+
+@media (min-width: 544px) {
+  .content-box-skew-left {
+    transform: skewY(6.5deg);
+  }
+  .content-box-skew-right {
+    transform: skewY(-6.5deg);
+  }
+}
+
+@media (min-width: 768px) {
+  .content-box-skew-left {
+    transform: skewY(6deg);
+  }
+  .content-box-skew-right {
+    transform: skewY(-6deg);
+  }
+}
+
+@media (min-width: 992px) {
+  .content-box-skew-left {
+    transform: skewY(5.5deg);
+  }
+  .content-box-skew-right {
+    transform: skewY(-5.5deg);
+  }
+}
+
+@media (min-width: 1200px) {
+  .content-box-skew-left {
+    transform: skewY(5deg);
+  }
+  .content-box-skew-right {
+    transform: skewY(-5deg);
+  }
+}

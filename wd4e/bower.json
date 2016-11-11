@@ -1,0 +1,25 @@
+{
+  "name": "wd4e",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "Sergey Korolev <korolev.srg@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.4",
+    "normalize-css": "normalize.css#^5.0.0",
+    "gsap": "^1.19.0",
+    "ekko-lightbox": "^5.0.0",
+    "font-awesome": "^4.7.0"
+  }
+}
