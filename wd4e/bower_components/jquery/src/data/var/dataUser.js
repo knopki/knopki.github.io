@@ -1,7 +1,1 @@
-define( [
-	"../Data"
-], function( Data ) {
-	"use strict";
-
-	return new Data();
-} );
+/annex/objects/SHA256E-s84--19873a0a549b4cdb2083b9cfe6b7dd79b5dd509f67fdbe3a707660a442417085.js

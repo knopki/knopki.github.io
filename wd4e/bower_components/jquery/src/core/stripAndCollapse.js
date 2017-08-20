@@ -1,14 +1,1 @@
-define( [
-	"../var/rnothtmlwhite"
-], function( rnothtmlwhite ) {
-	"use strict";
-
-	// Strip and collapse whitespace according to HTML spec
-	// https://html.spec.whatwg.org/multipage/infrastructure.html#strip-and-collapse-whitespace
-	function stripAndCollapse( value ) {
-		var tokens = value.match( rnothtmlwhite ) || [];
-		return tokens.join( " " );
-	}
-
-	return stripAndCollapse;
-} );
+/annex/objects/SHA256E-s384--da7e2be4f58d2500dfeb87787c99804b7db60ea232fe97471ae924f7b9a449a6.js

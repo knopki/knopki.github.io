@@ -1,12 +1,1 @@
-// Typography
-
-@mixin text-emphasis-variant($parent, $color) {
-  #{$parent} {
-    color: $color !important;
-  }
-  a#{$parent} {
-    @include hover-focus {
-      color: darken($color, 10%) !important;
-    }
-  }
-}
+/annex/objects/SHA256E-s212--1076fc77ca1ef8395ba9a14b2a18adfd71ca21f6544a3c4674580140408c6019.scss

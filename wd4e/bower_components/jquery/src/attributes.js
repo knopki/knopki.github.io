@@ -1,13 +1,1 @@
-define( [
-	"./core",
-	"./attributes/attr",
-	"./attributes/prop",
-	"./attributes/classes",
-	"./attributes/val"
-], function( jQuery ) {
-
-"use strict";
-
-// Return jQuery for attributes-only inclusion
-return jQuery;
-} );
+/annex/objects/SHA256E-s217--984db280790a672293aab76d12f5f83be806f2400054c9f2dc1d7c9550bcf224.js

@@ -1,14 +1,1 @@
-{
-  "name": "jquery",
-  "main": "dist/jquery.js",
-  "license": "MIT",
-  "ignore": [
-    "package.json"
-  ],
-  "keywords": [
-    "jquery",
-    "javascript",
-    "browser",
-    "library"
-  ]
-}
+/annex/objects/SHA256E-s190--80e3898ee933347b9f9a84c3d95d377b3f3cc64423f9a54df7d3c6d45a6aad5a.json

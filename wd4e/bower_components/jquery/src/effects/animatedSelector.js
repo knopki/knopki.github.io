@@ -1,15 +1,1 @@
-define( [
-	"../core",
-	"../selector",
-	"../effects"
-], function( jQuery ) {
-
-"use strict";
-
-jQuery.expr.pseudos.animated = function( elem ) {
-	return jQuery.grep( jQuery.timers, function( fn ) {
-		return elem === fn.elem;
-	} ).length;
-};
-
-} );
+/annex/objects/SHA256E-s244--50da7e972f84f94653ba5620a43f4079facfe2d267cf1b816c67bbbf8017e968.js

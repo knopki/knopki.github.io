@@ -1,7 +1,1 @@
-define( [
-	"./fnToString"
-], function( fnToString ) {
-	"use strict";
-
-	return fnToString.call( Object );
-} );
+/annex/objects/SHA256E-s110--f32988ec45b092310c6217776ba91200ee46e8acc2b9bf58a824f9a64c45d58b.js

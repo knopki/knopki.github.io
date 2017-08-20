@@ -1,17 +1,1 @@
- + Does the site validate?
- + Is the site responsive?
-    20pts Yes, the site has a unique look/layout for each of the views.
-    10pts The site has a unique look, but not a unique layout. (For example, they changed only colors of fonts, not the actual layout.)
-    6pts Only some of the pages are responsive - not all of them.
-    0pts The site is not responsive
- + Is the site well-styled?
- + Add custom JavaScript (e.g. incorporate dynamic content, use JS to perform verification, modify the DOM)
- + Incorporate plugins (e.g. Google Calendar , a map, parallax, etc.)
- + Include a Carousel for your images (don't forget to turn off the automatic start feature if you can!!)
- + lightbox
- - Use a sticky footer https://www.coursera.org/learn/web-design-project/lecture/ess4s/sticky-footers
- + Font Awesome
- - Add a third viewport layout (e.g. a table view that is different than mobile or large-screen)
- - Create screen capture video
-
-
+/annex/objects/SHA256E-s936--6d9d30edaf6af539518e60768a24f0c6249deb087299821a61786d2a02214cf7

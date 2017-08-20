@@ -1,14 +1,1 @@
-// Alerts
-
-@mixin alert-variant($background, $border, $body-color) {
-  background-color: $background;
-  border-color: $border;
-  color: $body-color;
-
-  hr {
-    border-top-color: darken($border, 5%);
-  }
-  .alert-link {
-    color: darken($body-color, 10%);
-  }
-}
+/annex/objects/SHA256E-s263--11199c37abee2984ffb08d9c6d8ba3ec18f1c02e9a509a2328c3bb881bca2ca7.scss

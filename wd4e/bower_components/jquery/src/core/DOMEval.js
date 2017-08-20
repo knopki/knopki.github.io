@@ -1,16 +1,1 @@
-define( [
-	"../var/document"
-], function( document ) {
-	"use strict";
-
-	function DOMEval( code, doc ) {
-		doc = doc || document;
-
-		var script = doc.createElement( "script" );
-
-		script.text = code;
-		doc.head.appendChild( script ).parentNode.removeChild( script );
-	}
-
-	return DOMEval;
-} );
+/annex/objects/SHA256E-s292--66ee902e9c03a6fb16e1d782d6c195781216465b57f09fcca45b41264dc00371.js

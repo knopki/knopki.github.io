@@ -1,9 +1,1 @@
-define( [
-	"../var/pnum"
-], function( pnum ) {
-
-"use strict";
-
-return new RegExp( "^(?:([+-])=|)(" + pnum + ")([a-z%]*)$", "i" );
-
-} );
+/annex/objects/SHA256E-s136--9d5f11fa3f30945d0b888f3d5075a8c7a5fbc64e9c5221ec0759eedeb9091346.js

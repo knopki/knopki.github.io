@@ -1,7 +1,1 @@
-define( [
-	"./class2type"
-], function( class2type ) {
-	"use strict";
-
-	return class2type.toString;
-} );
+/annex/objects/SHA256E-s104--1e1f3bb24a26c30bbe091221807b81e7bafcf47c0b928b019db0800f369a2def.js

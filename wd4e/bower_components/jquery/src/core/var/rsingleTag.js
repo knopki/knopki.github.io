@@ -1,6 +1,1 @@
-define( function() {
-	"use strict";
-
-	// Match a standalone tag
-	return ( /^<([a-z][^\/\0>:\x20\t\r\n\f]*)[\x20\t\r\n\f]*\/?>(?:<\/\1>|)$/i );
-} );
+/annex/objects/SHA256E-s148--314e9d631d1ef00d31576d6b3bc8d9e3858d82865d34540390080443907cb964.js

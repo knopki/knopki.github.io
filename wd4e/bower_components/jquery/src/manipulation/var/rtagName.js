@@ -1,5 +1,1 @@
-define( function() {
-	"use strict";
-
-	return ( /<([a-z][^\/\0>\x20\t\r\n\f]+)/i );
-} );
+/annex/objects/SHA256E-s88--197f64c5a6ce7811bc6c2b0ad903517366bacfbcb1becb186eacead3d55f6514.js

@@ -1,5 +1,1 @@
-define( function() {
-	"use strict";
-
-	return Object.getPrototypeOf;
-} );
+/annex/objects/SHA256E-s73--4e40005a62cc09cd747d9273ff58afd10ea80184fe973a062237dec7d357eab5.js

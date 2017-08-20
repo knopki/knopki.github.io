@@ -1,7 +1,1 @@
-define( [
-	"../../core"
-], function( jQuery ) {
-	"use strict";
-
-	return jQuery.now();
-} );
+/annex/objects/SHA256E-s91--9dc10ac39c1cae3b7f658b2a13d2da5eafd2ee3887d541e5af0f56143abbc642.js

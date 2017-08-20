@@ -1,5 +1,1 @@
-define( function() {
-	"use strict";
-
-	return ( /[+-]?(?:\d*\.|)\d+(?:[eE][+-]?\d+|)/ ).source;
-} );
+/annex/objects/SHA256E-s100--638d3756851044ba982d9d47f79de777d52600039836aae2974921d2b55d4795.js

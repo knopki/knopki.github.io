@@ -1,7 +1,1 @@
-define( [
-	"./document"
-], function( document ) {
-	"use strict";
-
-	return document.documentElement;
-} );
+/annex/objects/SHA256E-s105--5069ee1244b38c30ddef600fcbf152bfc1c2b8de1ae9ffc2df05cf206d09e944.js
