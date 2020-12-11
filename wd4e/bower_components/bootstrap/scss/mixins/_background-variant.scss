@@ -1,1 +1,13 @@
-/annex/objects/SHA256E-s263--1556afed338bb9e894cee041970898ff66de46ca779910cc91fe80d7232352b9.scss
+// Contextual backgrounds
+
+@mixin bg-variant($parent, $color) {
+  #{$parent} {
+    color: #fff !important;
+    background-color: $color !important;
+  }
+  a#{$parent} {
+    @include hover-focus {
+      background-color: darken($color, 10%) !important;
+    }
+  }
+}

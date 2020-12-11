@@ -1,1 +1,17 @@
-/annex/objects/SHA256E-s218--08f57cfd88776798d067d0639bbdfe8422c055f8a177f45ac46a64c5fc79d369.js
+define( function() {
+
+"use strict";
+
+return function( n, elem ) {
+	var matched = [];
+
+	for ( ; n; n = n.nextSibling ) {
+		if ( n.nodeType === 1 && n !== elem ) {
+			matched.push( n );
+		}
+	}
+
+	return matched;
+};
+
+} );

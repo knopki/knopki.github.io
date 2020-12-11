@@ -1,1 +1,6 @@
-/annex/objects/SHA256E-s120--b8b0b3478e04e868ef0cd5fa3fb291524f1932144d1bd3427d156afe369194e9.scss
+// Fixed Width Icons
+// -------------------------
+.#{$fa-css-prefix}-fw {
+  width: (18em / 14);
+  text-align: center;
+}

@@ -1,1 +1,5 @@
-/annex/objects/SHA256E-s60--618564a5d0eb5ec66385f16d5830914d288ba64af5be9e06c82913df233b7305.js
+define( function() {
+	"use strict";
+
+	return ( /\?/ );
+} );

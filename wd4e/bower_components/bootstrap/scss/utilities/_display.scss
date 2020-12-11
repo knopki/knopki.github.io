@@ -1,1 +1,13 @@
-/annex/objects/SHA256E-s170--ec7b47e1a0b409066b543b382a2156f2a387411f873df182a5df01abc516395e.scss
+//
+// Display utilities
+//
+
+.d-block {
+  display: block !important;
+}
+.d-inline-block {
+  display: inline-block !important;
+}
+.d-inline {
+  display: inline !important;
+}

@@ -1,1 +1,9 @@
-/annex/objects/SHA256E-s482--5915c53a109deb38290e8b748738c896b3f204e31041e9640afd687b52c604cd.md
+So, you're experiencing a problem?
+
+If you're not sure how to use the lightbox, or are experiencing a problem with it, please ask on [StackOverflow](http://stackoverflow.com/) - you will most definitely get a faster response time and it leaves this GitHub issues for actual bugs and not support questions.
+
+If you really do think you have a bug, please:
+
+- [ ] Provide a link to your site or a full example
+- [ ] Provide screenshots where appropriate
+- [ ] Browser name and version

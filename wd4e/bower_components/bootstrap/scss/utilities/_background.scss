@@ -1,1 +1,19 @@
-/annex/objects/SHA256E-s393--5ae30a6ac168fbff2e6fba9338e42d4982ad497d3a2f5f12aaf11416c97eb4d3.scss
+//
+// Contextual backgrounds
+//
+
+.bg-faded {
+  background-color: $gray-lightest;
+}
+
+@include bg-variant('.bg-primary', $brand-primary);
+
+@include bg-variant('.bg-success', $brand-success);
+
+@include bg-variant('.bg-info', $brand-info);
+
+@include bg-variant('.bg-warning', $brand-warning);
+
+@include bg-variant('.bg-danger', $brand-danger);
+
+@include bg-variant('.bg-inverse', $brand-inverse);

@@ -1,1 +1,26 @@
-/annex/objects/SHA256E-s645--6823d55c32e7397d5002a638bbcf3b0f905793e7e7abfb96ea3b7c52260e9890.json
+{
+  "name": "tether",
+  "version": "1.3.7",
+  "homepage": "http://github.hubspot.com/tether",
+  "authors": [
+    "Zack Bloom <zackbloom@gmail.com>",
+    "Adam Schwartz <adam.flynn.schwartz@gmail.com>"
+  ],
+  "maintainers": [
+    "Nicholas Hwang <nick.joosung.hwang@gmail.com>",
+    "Trevor Burnham <trevorburnham@gmail.com>"
+  ],
+  "description": "A client-side library to make absolutely positioned elements attach to elements in the page efficiently.",
+  "keywords": [
+    "javascript"
+  ],
+  "license": "MIT",
+  "main": "dist/js/tether.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

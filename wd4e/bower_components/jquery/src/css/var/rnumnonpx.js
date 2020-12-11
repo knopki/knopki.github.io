@@ -1,1 +1,7 @@
-/annex/objects/SHA256E-s131--2d196e11a9b97bb6d20ed5a420e8f2d88c2f3e71f20eb07a504e43d03002f5ab.js
+define( [
+	"../../var/pnum"
+], function( pnum ) {
+	"use strict";
+
+	return new RegExp( "^(" + pnum + ")(?!px)[a-z%]+$", "i" );
+} );

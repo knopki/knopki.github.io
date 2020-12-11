@@ -1,1 +1,7 @@
-/annex/objects/SHA256E-s110--b107b9a193f07762e489ba848f41420cde26e84f8e0a0f0ad1d099cab419b209.js
+define( [
+	"./class2type"
+], function( class2type ) {
+	"use strict";
+
+	return class2type.hasOwnProperty;
+} );

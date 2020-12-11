@@ -1,1 +1,10 @@
-/annex/objects/SHA256E-s301--6d7ef2319b52185eed00e23022ad5007faa233e405ee257899a2d167816bdffa.sass
+@import helpers/tether
+@import helpers/tether-theme-basic
+
+$themePrefix: "tether"
+$themeName: "basic"
+$backgroundColor: #fff
+$color: inherit
+
++tether($themePrefix: $themePrefix)
++tether-theme-basic($themePrefix: $themePrefix, $themeName: $themeName, $backgroundColor: $backgroundColor, $color: $color)

@@ -1,1 +1,12 @@
-/annex/objects/SHA256E-s399--260d6755d74542ed5361889e1882c069a51d80d707835257c9535a732ce19ff4.sass
+@import helpers/tether
+@import helpers/tether-theme-arrows
+
+$themePrefix: "tether"
+$themeName: "arrows"
+$arrowSize: 16px
+$backgroundColor: #fff
+$color: inherit
+$useDropShadow: true
+
++tether($themePrefix: $themePrefix)
++tether-theme-arrows($themePrefix: $themePrefix, $themeName: $themeName, $arrowSize: $arrowSize, $backgroundColor: $backgroundColor, $color: $color, $useDropShadow: $useDropShadow)

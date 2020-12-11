@@ -1,1 +1,8 @@
-/annex/objects/SHA256E-s129--450f29964b74b81c2f455116914abb70af40e2f34031d8d36ba342ad1ccd96b3.json
+{
+	"name": "jquery.stellar",
+	"version": "0.6.2",
+	"main": ["./jquery.stellar.js"],
+	"dependencies": {
+		"jquery": ">=1.4.3"
+	}
+}

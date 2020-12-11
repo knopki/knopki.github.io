@@ -1,1 +1,6 @@
-/annex/objects/SHA256E-s117--5cc3f35ae1def38e30a9b4d263f6ce437219f5be7a9cf324f226d444b7eb2f66.js
+define( function() {
+	"use strict";
+
+	// All support tests are defined in their respective modules.
+	return {};
+} );

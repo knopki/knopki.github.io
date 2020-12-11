@@ -1,1 +1,5 @@
-/annex/objects/SHA256E-s83--327dd1aeae32c3bdb8eb1fb9c8811d5e7a78a0517e6ce148bc08341c7e776acd.js
+define( function() {
+	"use strict";
+
+	return ( /^$|\/(?:java|ecma)script/i );
+} );

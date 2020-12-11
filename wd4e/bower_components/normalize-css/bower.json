@@ -1,1 +1,17 @@
-/annex/objects/SHA256E-s430--2a63bb4ffc39d714d9b20f0f4765e5cbb498ff36502c3a60f01ffc25cd7756f8.json
+{
+  "name": "normalize-css",
+  "description": "A modern alternative to CSS resets",
+  "main": "normalize.css",
+  "authors": [
+    "Jonathan Neal <jonathantneal@hotmail.com> (http://jonathantneal.com/)",
+    "Nicolas Gallagher <nicolas@nicolasgallagher.com> (http://nicolasgallagher.com/)"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "package.json",
+    "README.md",
+    "test.html"
+  ]
+}

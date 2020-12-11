@@ -1,1 +1,5 @@
-/annex/objects/SHA256E-s88--a48aeedef155707ae24d591a25f45321ba5069dfc37a9c8d15a063899ec5033e.js
+define( function() {
+	"use strict";
+
+	return [ "Top", "Right", "Bottom", "Left" ];
+} );

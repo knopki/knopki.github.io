@@ -1,1 +1,8 @@
-/annex/objects/SHA256E-s229--e28003369df053a1bced85e0f27c8caf1258759f10dac51f24698f5cc3ab8e55.js
+define( function() {
+	"use strict";
+
+	// Only count HTML whitespace
+	// Other whitespace should count in values
+	// https://html.spec.whatwg.org/multipage/infrastructure.html#space-character
+	return ( /[^\x20\t\r\n\f]+/g );
+} );

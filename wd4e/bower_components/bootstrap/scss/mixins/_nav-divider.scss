@@ -1,1 +1,10 @@
-/annex/objects/SHA256E-s220--1baf86aff8196298cbbca10c93cb41c00aeae86b0e6e16857e5d6122fe17a4af.scss
+// Horizontal dividers
+//
+// Dividers (basically an hr) within dropdowns and nav lists
+
+@mixin nav-divider($color: #e5e5e5) {
+  height: 1px;
+  margin: ($spacer-y / 2) 0;
+  overflow: hidden;
+  background-color: $color;
+}

@@ -1,1 +1,11 @@
-/annex/objects/SHA256E-s216--780d1c72f2d8c328403d0b4289d1032e922b67515f20e1e245aac488a3fb9298.scss
+// Bootstrap Reboot only
+//
+// Includes only Normalize and our custom Reboot reset.
+
+@import "custom";
+@import "variables";
+@import "mixins/hover";
+@import "mixins/tab-focus";
+
+@import "normalize";
+@import "reboot";

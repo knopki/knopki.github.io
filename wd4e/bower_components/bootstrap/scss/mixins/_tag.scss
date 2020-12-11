@@ -1,1 +1,11 @@
-/annex/objects/SHA256E-s163--f0fc5a514b2f7e54727f220c95be480f54adaaa05e7852f133731c2bba78a1b9.scss
+// Tags
+
+@mixin tag-variant($color) {
+  background-color: $color;
+
+  &[href] {
+    @include hover-focus {
+      background-color: darken($color, 10%);
+    }
+  }
+}

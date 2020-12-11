@@ -1,1 +1,5 @@
-/annex/objects/SHA256E-s425--a55c6c47ab3bf3ca9f83164061cf7748171dcba25e3e6425864264c9ef1d9bc6.md
+Bootstrap uses [GitHub's Releases feature](https://github.com/blog/1547-release-your-software) for its changelogs.
+
+See [the Releases section of our GitHub project](https://github.com/twbs/bootstrap/releases) for changelogs for each release version of Bootstrap.
+
+Release announcement posts on [the official Bootstrap blog](http://blog.getbootstrap.com) contain summaries of the most noteworthy changes made in each release.

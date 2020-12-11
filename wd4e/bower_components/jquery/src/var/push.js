@@ -1,1 +1,7 @@
-/annex/objects/SHA256E-s79--724ee9c9eb8f958032722fead38328dac54d635c861080c61eedcba469bfb44b.js
+define( [
+	"./arr"
+], function( arr ) {
+	"use strict";
+
+	return arr.push;
+} );

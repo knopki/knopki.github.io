@@ -1,1 +1,8 @@
-/annex/objects/SHA256E-s200--fcc13171f395b505c3f34b11ae04ed41aeda214e0e9b288bee367b7cae84f06d
+source 'https://rubygems.org'
+
+group :development, :test do
+  gem 'jekyll', '~> 3.1.2'
+  gem 'jekyll-redirect-from', '~> 0.11.0'
+  gem 'jekyll-sitemap', '~> 0.11.0'
+  gem 'scss_lint', '~> 0.49.0'
+end

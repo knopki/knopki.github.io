@@ -1,1 +1,7 @@
-/annex/objects/SHA256E-s80--45b07f4e2552e04cee31e1787639eb23e47eae1e4bf4e79004bdccefe4c94fd1.js
+define( [
+	"./arr"
+], function( arr ) {
+	"use strict";
+
+	return arr.slice;
+} );
